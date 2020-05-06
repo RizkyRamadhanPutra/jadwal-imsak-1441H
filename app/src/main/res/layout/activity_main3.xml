@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_height="3000dp"
+        android:background="@drawable/riki4"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:text="Hari Jumat 24/04/2020" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="5dp"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:text="Imsak 04:26" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="5dp"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:text="Subuh 04:36 " />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
